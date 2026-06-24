@@ -5,7 +5,7 @@ print(resumo[41:])
 
 print(resumo[-10:])
 
-print(resumo.lower)
+print(resumo.lower())
 
 print(resumo.upper())
 
