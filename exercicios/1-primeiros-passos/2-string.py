@@ -1,28 +1,26 @@
-resumo = "Paloma é uma mulher de 46 anos que deseja mudar de profissão, por isso está estudando 'python'."
+resumo= "José tem 40 anos e mora em Belo horizonte"
+print('josé tem 40 anos e mora em Belo rorizonte')
+resumo= "José tem 41 anos"
+print(resumo[41:])
 
-# Imprima na tela a variável "resumo"
+print(resumo[-10:])
 
+print(resumo.lower)
 
-# Imprima na tela apenas a segunda letra da variável
+print(resumo.upper())
 
+print(resumo.capitalize())
 
-# Imprima na tela a idade de Paloma (resposta esperada: "46")
+nome = "josé"
+idade = 41
 
+print("meu nome é {josé} e tenho{41 anos"}. format(nome, idade"))
+                                                   
+#errado
 
-# Imprima na tela o trecho final da variável
+#correto
 
+nome =  "josé"
+idade = "41"
 
-# Converta todos as letras para minúsculo e imprima na tela
-
-
-# Converta todas as letras para maiúscula e imprima na tela
-
-
-# Formate a frase para que a primeira letra de cada palavra seja maiúscula e imprima na tela
-
-
-# Formate a frase para que apenas a primeira letra da frase seja maiúscula e imprima na tela
-
-
-# Imprima na tela uma string utilizando uma variável, usando o recurso string format
-
+print(f" meu nome é {nome} e tenho {idade} anos")
