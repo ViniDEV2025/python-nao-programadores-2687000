@@ -3,7 +3,7 @@ print('josé tem 40 anos e mora em Belo rorizonte')
 resumo= "José tem 41 anos"
 print(resumo[41:])
 
-print(resumo[-10:])
+print(resumo[41:])
 
 print(resumo.lower())
 
